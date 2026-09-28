@@ -1,102 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tamara - My Portfolio</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Tamara Mwale - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body { background-color: #ffe6f2; font-family: Arial; padding: 20px; line-height: 1.6; }
+        h1 { color: #ff1493; text-align: center; }
+        h2 { color: #cc0066; border-bottom: 2px solid #ff99cc; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; background: white; }
+        th, td { border: 2px solid #ff1493; padding: 12px; text-align: left; }
+        th { background-color: #ff99cc; color: #660033; }
+        img { width: 200px; height: 200px; margin: 10px; border-radius: 10px; object-fit: cover; border: 3px solid #ff99cc; }
+        .gallery { display: flex; justify-content: center; flex-wrap: wrap; }
+        .contact-box { background: white; padding: 15px; border-radius: 10px; border: 2px solid #ff99cc; }
+        .about-box { background: white; padding: 15px; border-radius: 10px; border-left: 5px solid #ff1493; }
+    </style>
 </head>
 <body>
 
-<header>
-    <h1>Tamara</h1>
-    <p>Tamara Mwale 202407137 | Web Technologies - ICT251</p>
-</header>
+    <h1>Tamara Mwale - My Portfolio</h1>
 
-<nav>
-    <a href="#about">About</a>
-    <a href="#hobbies">My Hobbies</a>
-    <a href="#gallery">My Photos</a>
-    <a href="#media">My Media</a>
-    <a href="#schedule">Schedule</a>
-    <a href="#contact">Contact</a>
-    <a href="https://www.w3schools.com" target="_blank">W3Schools</a>
-</nav>
-
-<section id="about" class="content-section">
     <h2>About Me</h2>
-    <p>Hello! My name is Tamara. I am an ICT student passionate about learning web design and technology. This portfolio is for my ICT251 Activity 2 assignment.</p>
-</section>
-
-<section id="hobbies" class="content-section">
-    <h2>My Hobbies</h2>
-    <ul>
-        <li>Reading</li>
-        <li>Listening to Music</li>
-        <li>Cooking</li>
-        <li>Traveling</li>
-    </ul>
-</section>
-
-<section id="gallery" class="content-section">
-    <h2>My Photo Gallery</h2>
-    <div class="gallery">
-        <figure>
-            <img src="images/photo1.jpg" alt="Tamara Photo 1">
-            <figcaption>Photo 1</figcaption>
-        </figure>
-        <figure>
-            <img src="images/photo2.jpg" alt="Tamara Photo 2">
-            <figcaption>Photo 2</figcaption>
-        </figure>
-        <figure>
-            <img src="images/photo3.jpg" alt="Tamara Photo 3">
-            <figcaption>Photo 3</figcaption>
-        </figure>
+    <div class="about-box">
+        <p>Hello! My name is <strong>Tamara Mwale</strong>, a passionate ICT student at Mulungushi University pursuing Web Technologies (ICT251).</p>
+        <p>I am interested in web development, graphic design, and creating user-friendly digital experiences. I enjoy learning new programming languages like HTML, CSS, and JavaScript.</p>
+        <p>My goal is to become a skilled web developer and help businesses in Zambia build beautiful and functional websites. In my free time, I love reading, photography, and exploring new technologies.</p>
+        <p>This portfolio website showcases my journey, my weekly schedule, and my multimedia projects as part of my ICT251 assignment.</p>
     </div>
-</section>
 
-<section id="media" class="content-section">
-    <h2>My Introductions</h2>
-    <h3>Video Introduction</h3>
-    <video controls width="400">
-        <source src="videos/intro.mp4" type="video/mp4">
-        Your browser does not support video.
-    </video>
-    
-    <h3>Audio Introduction</h3>
+    <h2>My Photos</h2>
+    <div class="gallery">
+        <img src="images/photo1.jpg" alt="Photo 1">
+        <img src="images/photo2.jpg" alt="Photo 2">
+        <img src="images/photo3.jpg" alt="Photo 3">
+    </div>
+
+    <h2>Audio Introduction</h2>
     <audio controls>
-        <source src="videos/voice.mp3" type="audio/mpeg">
-        Your browser does not support audio.
+        <source src="videos/audio.mp3" type="audio/mpeg">
     </audio>
-</section>
 
-<section id="schedule" class="content-section">
+    <h2>My Video</h2>
+    <video width="400" controls>
+        <source src="videos/intro.mp4" type="video/mp4">
+    </video>
+
     <h2>My Weekly Schedule</h2>
     <table>
         <tr><th>Day</th><th>Activity</th><th>Time</th></tr>
-        <tr><td>Monday</td><td>ICT251 Class</td><td>09:00 - 11:00</td></tr>
-        <tr><td>Tuesday</td><td>Library Study</td><td>14:00 - 16:00</td></tr>
-        <tr><td>Wednesday</td><td>Assignment Work</td><td>16:00 - 17:30</td></tr>
+        <tr><td>Monday</td><td>ICT251 Lecture</td><td>09:00 - 11:00</td></tr>
+        <tr><td>Tuesday</td><td>Library Study & Research</td><td>14:00 - 16:00</td></tr>
+        <tr><td>Wednesday</td><td>ICT251 Assignment Work</td><td>10:00 - 12:00</td></tr>
+        <tr><td>Thursday</td><td>ICT Lab Practical</td><td>13:00 - 15:00</td></tr>
+        <tr><td>Friday</td><td>Group Discussion</td><td>09:00 - 10:00</td></tr>
     </table>
-</section>
 
-<section id="contact" class="content-section">
     <h2>Contact Me</h2>
-    <form>
-        <label>Name:</label><br>
-        <input type="text" required><br><br>
-        <label>Email:</label><br>
-        <input type="email" required><br><br>
-        <label>Message:</label><br>
-        <textarea required rows="4"></textarea><br><br>
-        <button type="submit">Submit</button>
-    </form>
-</section>
-
-<footer>
-    <p>&copy; 2026 Tamara. All rights reserved.</p>
-</footer>
+    <div class="contact-box">
+        <p><strong>Name:</strong> Tamara Mwale</p>
+        <p><strong>Student ID:</strong> 202407137</p>
+        <p><strong>Course:</strong> Web Technologies - ICT251</p>
+        <p><strong>Email:</strong> mwaletamara9@gmail.com</p>
+        <p><strong>Institution:</strong> Mulungushi University</p>
+    </div>
 
 </body>
 </html>
