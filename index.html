@@ -1,68 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Tamara Mwale - Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
-    <style>
-        body { background-color: #ffe6f2; font-family: Arial; padding: 20px; line-height: 1.6; }
-        h1 { color: #ff1493; text-align: center; }
-        h2 { color: #cc0066; border-bottom: 2px solid #ff99cc; }
-        table { width: 100%; border-collapse: collapse; margin: 20px 0; background: white; }
-        th, td { border: 2px solid #ff1493; padding: 12px; text-align: left; }
-        th { background-color: #ff99cc; color: #660033; }
-        img { width: 200px; height: 200px; margin: 10px; border-radius: 10px; object-fit: cover; border: 3px solid #ff99cc; }
-        .gallery { display: flex; justify-content: center; flex-wrap: wrap; }
-        .contact-box { background: white; padding: 15px; border-radius: 10px; border: 2px solid #ff99cc; }
-        .about-box { background: white; padding: 15px; border-radius: 10px; border-left: 5px solid #ff1493; }
-    </style>
+<title>Tamara Mwale - Portfolio</title>
+<style>
+body{background:#ffe6f2;font-family:Arial;padding:20px;line-height:1.6}
+h1{color:#ff1493;text-align:center}
+h2{color:#cc0066;border-bottom:2px solid #ff99cc;margin-top:30px}
+table{width:100%;border-collapse:collapse;background:white;margin:15px 0}
+th,td{border:2px solid #ff1493;padding:10px;text-align:left}
+th{background:#ff99cc}
+.box{background:white;padding:15px;border-radius:10px;border-left:5px solid #ff1493;margin:15px 0}
+img{width:180px;height:180px;margin:10px;border-radius:10px;object-fit:cover;border:3px solid #ff99cc}
+.gallery{display:flex;flex-wrap:wrap;justify-content:center}
+.contact{background:white;padding:15px;border-radius:10px;border:2px solid #ff99cc}
+</style>
 </head>
 <body>
 
-    <h1>Tamara Mwale - My Portfolio</h1>
+<h1>Tamara Mwale - My Portfolio</h1>
 
-    <h2>About Me</h2>
-    <div class="about-box">
-        <p>Hello! My name is <strong>Tamara Mwale</strong>, a passionate ICT student at Mulungushi University pursuing Web Technologies (ICT251).</p>
-        <p>I am interested in web development, graphic design, and creating user-friendly digital experiences. I enjoy learning new programming languages like HTML, CSS, and JavaScript.</p>
-        <p>My goal is to become a skilled web developer and help businesses in Zambia build beautiful and functional websites. In my free time, I love reading, photography, and exploring new technologies.</p>
-        <p>This portfolio website showcases my journey, my weekly schedule, and my multimedia projects as part of my ICT251 assignment.</p>
-    </div>
+<h2>About Me</h2>
+<div class="box">
+<p>Hello! My name is <strong>Tamara Mwale</strong> and I am a student at <strong>Mulungushi University</strong>. My Student ID is <strong>202407137</strong>.</p>
+<p>I am currently taking <strong>ICT251 - Web Technologies</strong> as one of my courses. I am learning how to create websites using HTML, CSS and other web tools.</p>
+<p>This portfolio website is part of my ICT251 assignment.</p>
+</div>
 
-    <h2>My Photos</h2>
-    <div class="gallery">
-        <img src="images/photo1.jpg" alt="Photo 1">
-        <img src="images/photo2.jpg" alt="Photo 2">
-        <img src="images/photo3.jpg" alt="Photo 3">
-    </div>
+<h2>My Hobbies</h2>
+<div class="box">
+<ul>
+<li>Reading</li>
+<li>Listening to Music</li>
+<li>Cooking</li>
+<li>Traveling</li>
+</ul>
+</div>
 
-    <h2>Audio Introduction</h2>
-    <audio controls>
-        <source src="videos/audio.mp3" type="audio/mpeg">
-    </audio>
+<h2>My Photos</h2>
+<div class="gallery">
+<img src="images/photo1.jpg" alt="My Photo 1">
+<img src="images/photo2.jpg" alt="My Photo 2">
+<img src="images/photo3.jpg" alt="My Photo 3">
+</div>
 
-    <h2>My Video</h2>
-    <video width="400" controls>
-        <source src="videos/intro.mp4" type="video/mp4">
-    </video>
+<h2>Audio Introduction</h2>
+<div class="box">
+<audio controls style="width:100%">
+<source src="videos/audio.mp3" type="audio/mpeg">
+</audio>
+</div>
 
-    <h2>My Weekly Schedule</h2>
-    <table>
-        <tr><th>Day</th><th>Activity</th><th>Time</th></tr>
-        <tr><td>Monday</td><td>ICT251 Lecture</td><td>09:00 - 11:00</td></tr>
-        <tr><td>Tuesday</td><td>Library Study & Research</td><td>14:00 - 16:00</td></tr>
-        <tr><td>Wednesday</td><td>ICT251 Assignment Work</td><td>10:00 - 12:00</td></tr>
-        <tr><td>Thursday</td><td>ICT Lab Practical</td><td>13:00 - 15:00</td></tr>
-        <tr><td>Friday</td><td>Group Discussion</td><td>09:00 - 10:00</td></tr>
-    </table>
+<h2>My Video</h2>
+<div class="box">
+<video width="400" controls>
+<source src="videos/intro.mp4" type="video/mp4">
+</video>
+</div>
 
-    <h2>Contact Me</h2>
-    <div class="contact-box">
-        <p><strong>Name:</strong> Tamara Mwale</p>
-        <p><strong>Student ID:</strong> 202407137</p>
-        <p><strong>Course:</strong> Web Technologies - ICT251</p>
-        <p><strong>Email:</strong> mwaletamara9@gmail.com</p>
-        <p><strong>Institution:</strong> Mulungushi University</p>
-    </div>
+<h2>My Weekly Schedule</h2>
+<table>
+<tr><th>Day</th><th>Activity</th><th>Time</th></tr>
+<tr><td>Monday</td><td>ICT251 Lecture</td><td>09:00 - 11:00</td></tr>
+<tr><td>Tuesday</td><td>Library Study</td><td>14:00 - 16:00</td></tr>
+<tr><td>Wednesday</td><td>Assignment Work</td><td>10:00 - 12:00</td></tr>
+<tr><td>Thursday</td><td>ICT Lab</td><td>13:00 - 15:00</td></tr>
+<tr><td>Friday</td><td>Group Discussion</td><td>09:00 - 10:00</td></tr>
+</table>
+
+<h2>Contact Me</h2>
+<div class="contact">
+<p><strong>Name:</strong> Tamara Mwale</p>
+<p><strong>Student ID:</strong> 202407137</p>
+<p><strong>Email:</strong> mwaletamara9@gmail.com</p>
+<p><strong>University:</strong> Mulungushi University</p>
+<p><strong>Course:</strong> ICT251 - Web Technologies</p>
+</div>
 
 </body>
 </html>
