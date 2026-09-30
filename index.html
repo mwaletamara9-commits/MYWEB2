@@ -1,89 +1,113 @@
+Here is your updated full code with *listening to music* added as your hobby:
+
+### 1. `myweb/index.html`
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tamara Mwale | 202407137 | Portfolio</title>
-<link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamara Mwale - MYWEB2</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-<header>
-<h1>TAMARA MWALE</h1>
-<h3>Student ID: 202407137 | ICT251 - Web Technologies</h3>
-<p>Mulungushi University</p>
-</header>
+    <header>
+        <h1>TAMARA MWALE</h1>
+        <p>Student Number: 202407137 | ICT251 - Web Technologies</p>
+        <p>Mulungushi University | Bachelor of Science in Information and Communication Technology (ICT)</p>
+    </header>
 
-<nav>
-<a href="#about">About Me</a>
-<a href="#photos">My Photos</a>
-<a href="#media">Media</a>
-<a href="#hobbies">Hobbies</a>
-<a href="#contact">Contact</a>
-</nav>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#photos">My Photos</a>
+        <a href="#media">Media</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-<section id="about" class="box">
-<h2>About Me</h2>
-<p>My name is <b>Tamara Mwale</b>, student number <b>202407137</b>, a student at <b>Mulungushi University</b> pursuing a Bachelor of Science in Information and Communication Technology (ICT).</p>
-<br>
-<p>I am a passionate, hardworking and self-motivated young woman who is eager to learn new skills in technology. I have a strong interest in web design and development, and I enjoy creating beautiful and user-friendly websites.</p>
-<br>
-<p>As a person, I am friendly, respectful, and I love working with other people. I believe in teamwork, discipline, and continuous learning. My goal is to become a skilled ICT professional who can contribute to solving technological challenges in Zambia and beyond.</p>
-<br>
-<p>This personal portfolio website <b>MYWEB2</b> has been designed and developed by me as part of my <b>ICT251 - Web Technologies</b> assignment. It contains my personal photos, audio introduction and video introduction to showcase my creativity and web development skills.</p>
-</section>
+    <main>
+        <section id="about" class="box">
+            <h2>About Me</h2>
+            <p>My name is Tamara Mwale, student number 202407137, a student at Mulungushi University pursuing a Bachelor of Science in Information and Communication Technology (ICT).</p>
+            <p>I am a passionate, hardworking and self-motivated young woman who is eager to learn new skills in technology. I have a strong interest in web design and development, and I enjoy creating beautiful and user-friendly websites.</p>
+            <p>As a person, I am friendly, respectful, and I love working with other people. I believe in teamwork, discipline, and continuous learning. One of my favourite ways to relax is listening to music, which inspires my creativity.</p>
+            <p>This personal portfolio website MYWEB2 has been designed and developed by me as part of my ICT251 - Web Technologies assignment. It contains my personal photos, audio introduction and video introduction to showcase my creativity and web development skills.</p>
+        </section>
 
-<section id="photos" class="box">
-<h2>My Photos</h2>
-<p>Here are some of my personal photos that represent me:</p>
-<img src="photo1.jpg" alt="Tamara Photo 1">
-<img src="photo2.jpg" alt="Tamara Photo 2">
-<img src="photo3.jpg" alt="Tamara Photo 3">
-</section>
+        <section id="photos" class="box">
+            <h2>My Photos</h2>
+            <figure>
+                <img src="images/photo1.jpg" alt="Tamara at campus">
+                <figcaption>Photo 1: At Mulungushi University</figcaption>
+            </figure>
+            <figure>
+                <img src="images/photo2.jpg" alt="Tamara study time">
+                <figcaption>Photo 2: Study time</figcaption>
+            </figure>
+            <figure>
+                <img src="images/photo3.jpg" alt="Tamara listening to music">
+                <figcaption>Photo 3: Listening to music - my favourite hobby</figcaption>
+            </figure>
+        </section>
 
-<section id="media" class="box">
-<h2>Media - Audio and Video</h2>
-<h3>Audio Introduction</h3>
-<p>Click play to listen to my audio introduction:</p>
-<audio controls>
-<source src="videos/audio.mp3" type="audio/mpeg">
-</audio>
+        <section id="media" class="box">
+            <h2>Media</h2>
+            <h3>Video Introduction</h3>
+            <video controls width="100%">
+                <source src="videos/intro.mp4" type="video/mp4">
+                Your browser does not support video.
+            </video>
+            <p>Video: My name is Tamara Mwale, I study ICT and I want to learn responsive web design.</p>
 
-<br><br>
-<h3>Video Introduction</h3>
-<p>Click play to watch my video introduction:</p>
-<video width="400" controls>
-<source src="videos/intro.mp4" type="video/mp4">
-</video>
-</section>
+            <h3>Audio Introduction</h3>
+            <audio controls>
+                <source src="videos/voice.mp3" type="audio/mpeg">
+                Your browser does not support audio.
+            </audio>
+            <p>Audio: I love listening to music because it helps me relax and focus when I am designing websites.</p>
+        </section>
 
-<section id="hobbies" class="box">
-<h2>Hobbies and Interests</h2>
-<ul>
-<li>Reading and researching new technologies</li>
-<li>Listening to music</li>
-<li>Traveling and exploring new places</li>
-<li>Web designing and photography</li>
-<li>Watching movies and spending time with family and friends</li>
-</ul>
-</section>
+        <section id="hobbies" class="box">
+            <h2>Hobbies</h2>
+            <ul>
+                <li><i>Listening to music - gospel and Afrobeat to relax and get inspired</i></li>
+                <li><i>Web designing and photography</i></li>
+                <li>Watching movies and spending time with family and friends</li>
+                <li>Reading and learning new tech skills</li>
+            </ul>
+            <p>I enjoy listening to music every day after classes. It helps me to be creative when building websites.</p>
+        </section>
 
-<section id="contact" class="box">
-<h2>Contact Information</h2>
-<table>
-<tr><th>Details</th><th>Information</th></tr>
-<tr><td>Full Name</td><td>Tamara Mwale</td></tr>
-<tr><td>Student ID</td><td>202407137</td></tr>
-<tr><td>University</td><td>Mulungushi University</td></tr>
-<tr><td>Program</td><td>Bachelor of Science in ICT</td></tr>
-<tr><td>Course</td><td>ICT251 - MYWEB2 Project</td></tr>
-<tr><td>Project Link</td><td>https://mwaletamara9-commits.github.io/MYWEB2/</td></tr>
-</table>
-</section>
+        <section id="contact" class="box">
+            <h2>Contact</h2>
+            <p><em>This form is a browser demonstration only, it does not send data.</em></p>
+            <form action="#">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
 
-<footer>
-<p>&copy; 2026 Tamara Mwale | 202407137 | Mulungushi University</p>
-</footer>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="topic">Topic:</label>
+                <select id="topic" name="topic">
+                    <option>Web Design</option>
+                    <option>Music and Creativity</option>
+                    <option>General Question</option>
+                </select>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Tamara Mwale | ICT251 Activity 2 | Mulungushi University</p>
+    </footer>
 
 </body>
 </html>
+
+Copy and paste this new `index.html` and push to GitHub.
