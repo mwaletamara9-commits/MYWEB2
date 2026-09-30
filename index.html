@@ -1,6 +1,3 @@
-Here is your updated full code with *listening to music* added as your hobby:
-
-### 1. `myweb/index.html`
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,103 +8,95 @@ Here is your updated full code with *listening to music* added as your hobby:
 </head>
 <body>
 
-    <header>
-        <h1>TAMARA MWALE</h1>
-        <p>Student Number: 202407137 | ICT251 - Web Technologies</p>
-        <p>Mulungushi University | Bachelor of Science in Information and Communication Technology (ICT)</p>
-    </header>
+<header>
+    <h1>TAMARA MWALE</h1>
+    <p>Student Number: 202407137 | ICT251 - Web Technologies</p>
+    <p>Mulungushi University | Bachelor of Science in ICT</p>
+</header>
 
-    <nav>
-        <a href="#about">About Me</a>
-        <a href="#photos">My Photos</a>
-        <a href="#media">Media</a>
-        <a href="#hobbies">Hobbies</a>
-        <a href="#contact">Contact</a>
-    </nav>
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#photos">My Photos</a>
+    <a href="#media">Media</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#contact">Contact</a>
+</nav>
 
-    <main>
-        <section id="about" class="box">
-            <h2>About Me</h2>
-            <p>My name is Tamara Mwale, student number 202407137, a student at Mulungushi University pursuing a Bachelor of Science in Information and Communication Technology (ICT).</p>
-            <p>I am a passionate, hardworking and self-motivated young woman who is eager to learn new skills in technology. I have a strong interest in web design and development, and I enjoy creating beautiful and user-friendly websites.</p>
-            <p>As a person, I am friendly, respectful, and I love working with other people. I believe in teamwork, discipline, and continuous learning. One of my favourite ways to relax is listening to music, which inspires my creativity.</p>
-            <p>This personal portfolio website MYWEB2 has been designed and developed by me as part of my ICT251 - Web Technologies assignment. It contains my personal photos, audio introduction and video introduction to showcase my creativity and web development skills.</p>
-        </section>
+<main>
+    <section id="about" class="box">
+        <h2>About Me</h2>
+        <p>My name is Tamara Mwale, student number 202407137, a student at Mulungushi University pursuing a Bachelor of Science in Information and Communication Technology (ICT).</p>
+        <p>I am a passionate, hardworking and self-motivated young woman who is eager to learn new skills in technology. I have a strong interest in web design and development.</p>
+        <p>As a person, I am friendly and I love working with people. I enjoy listening to music in my free time because it helps me relax and be more creative when designing websites.</p>
+        <p>This website MYWEB2 was developed by me as part of my ICT251 assignment.</p>
+    </section>
 
-        <section id="photos" class="box">
-            <h2>My Photos</h2>
-            <figure>
-                <img src="images/photo1.jpg" alt="Tamara at campus">
-                <figcaption>Photo 1: At Mulungushi University</figcaption>
-            </figure>
-            <figure>
-                <img src="images/photo2.jpg" alt="Tamara study time">
-                <figcaption>Photo 2: Study time</figcaption>
-            </figure>
-            <figure>
-                <img src="images/photo3.jpg" alt="Tamara listening to music">
-                <figcaption>Photo 3: Listening to music - my favourite hobby</figcaption>
-            </figure>
-        </section>
+    <section id="photos" class="box">
+        <h2>My Photos</h2>
+        <div class="photo-item">
+            <img src="images/photo1.jpg" alt="Photo 1">
+            <p>Photo 1</p>
+        </div>
+        <div class="photo-item">
+            <img src="images/photo2.jpg" alt="Photo 2">
+            <p>Photo 2</p>
+        </div>
+        <div class="photo-item">
+            <img src="images/photo3.jpg" alt="Photo 3">
+            <p>Photo 3</p>
+        </div>
+    </section>
 
-        <section id="media" class="box">
-            <h2>Media</h2>
-            <h3>Video Introduction</h3>
-            <video controls width="100%">
-                <source src="videos/intro.mp4" type="video/mp4">
-                Your browser does not support video.
-            </video>
-            <p>Video: My name is Tamara Mwale, I study ICT and I want to learn responsive web design.</p>
+    <section id="media" class="box">
+        <h2>Media</h2>
+        <h3>Video Introduction</h3>
+        <video controls width="100%">
+            <source src="videos/intro.mp4" type="video/mp4">
+        </video>
+        <h3>Audio Introduction</h3>
+        <audio controls>
+            <source src="videos/voice.mp3" type="audio/mpeg">
+        </audio>
+    </section>
 
-            <h3>Audio Introduction</h3>
-            <audio controls>
-                <source src="videos/voice.mp3" type="audio/mpeg">
-                Your browser does not support audio.
-            </audio>
-            <p>Audio: I love listening to music because it helps me relax and focus when I am designing websites.</p>
-        </section>
+    <section id="hobbies" class="box">
+        <h2>Hobbies</h2>
+        <ul>
+            <li><i>Listening to music</i></li>
+            <li><i>Web designing and photography</i></li>
+            <li>Watching movies and spending time with family and friends</li>
+            <li>Reading and learning new tech skills</li>
+        </ul>
+    </section>
 
-        <section id="hobbies" class="box">
-            <h2>Hobbies</h2>
-            <ul>
-                <li><i>Listening to music - gospel and Afrobeat to relax and get inspired</i></li>
-                <li><i>Web designing and photography</i></li>
-                <li>Watching movies and spending time with family and friends</li>
-                <li>Reading and learning new tech skills</li>
-            </ul>
-            <p>I enjoy listening to music every day after classes. It helps me to be creative when building websites.</p>
-        </section>
+    <section id="contact" class="box">
+        <h2>Contact</h2>
+        <p><em>This form is a browser demonstration only, it does not send data.</em></p>
+        <form action="#">
+            <label>Name:</label>
+            <input type="text" required>
+            
+            <label>Email:</label>
+            <input type="email" required>
+            
+            <label>Topic:</label>
+            <select>
+                <option>Web Design</option>
+                <option>Music and Creativity</option>
+                <option>General</option>
+            </select>
+            
+            <label>Message:</label>
+            <textarea rows="4" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</main>
 
-        <section id="contact" class="box">
-            <h2>Contact</h2>
-            <p><em>This form is a browser demonstration only, it does not send data.</em></p>
-            <form action="#">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="topic">Topic:</label>
-                <select id="topic" name="topic">
-                    <option>Web Design</option>
-                    <option>Music and Creativity</option>
-                    <option>General Question</option>
-                </select>
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-
-                <button type="submit">Send</button>
-            </form>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2026 Tamara Mwale | ICT251 Activity 2 | Mulungushi University</p>
-    </footer>
+<footer>
+    <p>&copy; 2026 Tamara Mwale | ICT251 Activity 2</p>
+</footer>
 
 </body>
 </html>
-
-Copy and paste this new `index.html` and push to GitHub.
