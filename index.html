@@ -1,102 +1,102 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tamara Mwale - MYWEB2</title>
-    <link rel="stylesheet" href="css/styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tamara Mwale | 202407137</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <h1>TAMARA MWALE</h1>
-    <p>Student Number: 202407137 | ICT251 - Web Technologies</p>
-    <p>Mulungushi University | Bachelor of Science in ICT</p>
+  <h1>TAMARA MWALE</h1>
+  <p>202407137 | ICT251 Web Technologies</p>
 </header>
 
-<nav>
-    <a href="#about">About Me</a>
-    <a href="#photos">My Photos</a>
-    <a href="#media">Media</a>
-    <a href="#hobbies">Hobbies</a>
-    <a href="#contact">Contact</a>
-</nav>
+<div class="container">
 
-<main>
-    <section id="about" class="box">
-        <h2>About Me</h2>
-        <p>My name is Tamara Mwale, student number 202407137, a student at Mulungushi University pursuing a Bachelor of Science in Information and Communication Technology (ICT).</p>
-        <p>I am a passionate, hardworking and self-motivated young woman who is eager to learn new skills in technology. I have a strong interest in web design and development.</p>
-        <p>As a person, I am friendly and I love working with people. I enjoy listening to music in my free time because it helps me relax and be more creative when designing websites.</p>
-        <p>This website MYWEB2 was developed by me as part of my ICT251 assignment.</p>
-    </section>
+  <div id="about" class="card">
+    <h2>About Me</h2>
+    <p>My name is Tamara Mwale with student number 202407137. I am a student at Mulungushi University pursuing a Bachelor of Science in Information and Communication Technology.</p>
+    <p>I am a passionate, hardworking and self-motivated person who is always eager to learn new skills and improve in technology.</p>
+    <p>I have a strong interest in web design and development, focusing on building simple, attractive and user-friendly websites.</p>
+    <p>Outside academics, I am friendly, disciplined and enjoy teamwork, music and learning new things every day.</p>
+  </div>
 
-    <section id="photos" class="box">
-        <h2>My Photos</h2>
-        <div class="photo-item">
-            <img src="images/photo1.jpg" alt="Photo 1">
-            <p>Photo 1</p>
-        </div>
-        <div class="photo-item">
-            <img src="images/photo2.jpg" alt="Photo 2">
-            <p>Photo 2</p>
-        </div>
-        <div class="photo-item">
-            <img src="images/photo3.jpg" alt="Photo 3">
-            <p>Photo 3</p>
-        </div>
-    </section>
+  <div id="photos" class="card">
+    <h2>My Photos</h2>
+    <div class="photo-grid">
+      <img src="photo1.jpg" alt="Photo 1">
+      <img src="photo2.jpg" alt="Photo 2">
+      <img src="photo3.jpg" alt="Photo 3">
+    </div>
+  </div>
 
-    <section id="media" class="box">
-        <h2>Media</h2>
-        <h3>Video Introduction</h3>
-        <video controls width="100%">
-            <source src="videos/intro.mp4" type="video/mp4">
-        </video>
-        <h3>Audio Introduction</h3>
-        <audio controls>
-            <source src="videos/voice.mp3" type="audio/mpeg">
-        </audio>
-    </section>
+  <div id="media" class="card">
+    <h2>Media</h2>
+    <h3>Audio Introduction</h3>
+    <audio controls>
+      <source src="audio.mp3" type="audio/mpeg">
+    </audio>
+    <h3>Video Introduction</h3>
+    <video controls>
+      <source src="video.mp4" type="video/mp4">
+    </video>
+  </div>
 
-    <section id="hobbies" class="box">
-        <h2>Hobbies</h2>
-        <ul>
-            <li><i>Listening to music</i></li>
-            <li><i>Web designing and photography</i></li>
-            <li>Watching movies and spending time with family and friends</li>
-            <li>Reading and learning new tech skills</li>
-        </ul>
-    </section>
+  <div id="learning" class="card">
+    <h2>My Learning Plan</h2>
+    <table>
+      <tr>
+        <th>Day</th>
+        <th>Activity</th>
+        <th>Time</th>
+      </tr>
+      <tr>
+        <td>Monday</td>
+        <td>Learning HTML structure and tags</td>
+        <td>14:00 - 16:00</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td>Practicing CSS styling and layout</td>
+        <td>10:00 - 12:00</td>
+      </tr>
+      <tr>
+        <td>Friday</td>
+        <td>Working on website project and GitHub deployment</td>
+        <td>09:00 - 11:00</td>
+      </tr>
+    </table>
+  </div>
 
-    <section id="contact" class="box">
-        <h2>Contact</h2>
-        <p><em>This form is a browser demonstration only, it does not send data.</em></p>
-        <form action="#">
-            <label>Name:</label>
-            <input type="text" required>
-            
-            <label>Email:</label>
-            <input type="email" required>
-            
-            <label>Topic:</label>
-            <select>
-                <option>Web Design</option>
-                <option>Music and Creativity</option>
-                <option>General</option>
-            </select>
-            
-            <label>Message:</label>
-            <textarea rows="4" required></textarea>
-            
-            <button type="submit">Send</button>
-        </form>
-    </section>
-</main>
+  <div id="hobbies" class="card">
+    <h2>Hobbies</h2>
+    <ul>
+      <li>Listening to music</li>
+      <li>Web designing and photography</li>
+      <li>Watching movies and spending time with family and friends</li>
+      <li>Reading and learning new tech skills</li>
+    </ul>
+  </div>
 
-<footer>
-    <p>&copy; 2026 Tamara Mwale | ICT251 Activity 2</p>
-</footer>
+  <div id="contact" class="card">
+    <h2>Contact</h2>
+    <p><em>This form is a browser demonstration only, it does not send data.</em></p>
+    <form>
+      <label>Name:</label>
+      <input type="text">
+      <label>Email:</label>
+      <input type="email">
+      <label>Message:</label>
+      <textarea rows="4"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </div>
 
+</div>
+
+<footer>© 2025 Tamara Mwale - ICT251</footer>
 </body>
 </html>
