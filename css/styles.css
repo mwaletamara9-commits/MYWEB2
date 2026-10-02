@@ -34,12 +34,9 @@ h2{
   border-bottom:2px solid #f8bbd0;
   padding-bottom:5px;
 }
-h3{
-  color:#ad1457;
-  margin:15px 0 5px 0;
-}
+h3{color:#ad1457;margin:15px 0 5px 0}
 
-/* PHOTOS SMALL - FIXED */
+/* THIS FIXES YOUR BIG PHOTOS */
 .photo-grid{
   display:grid;
   grid-template-columns: repeat(3, 1fr);
@@ -52,74 +49,18 @@ h3{
   border-radius:10px;
   border:3px solid #f8bbd0;
 }
-
-audio, video{
-  width:100%;
-  margin:10px 0;
-}
-
-/* LEARNING PLAN TABLE */
-table{
-  width:100%;
-  border-collapse:collapse;
-  margin-top:10px;
-}
-th, td{
-  border:1px solid #f8bbd0;
-  padding:12px;
-  text-align:left;
-}
-th{
-  background-color:#d81b60;
-  color:white;
-}
-tr:nth-child(even){
-  background-color:#fce4ec;
-}
-
-/* CONTACT FORM */
-label{
-  display:block;
-  font-weight:bold;
-  margin:15px 0 5px 0;
-  color:#880e4f;
-}
-input, textarea{
-  width:100%;
-  padding:10px;
-  border:2px solid #f8bbd0;
-  border-radius:8px;
-  background:#fff8fb;
-}
-input:focus, textarea:focus{
-  border-color:#d81b60;
-  outline:none;
-}
-button{
-  background:#d81b60;
-  color:white;
-  border:none;
-  padding:12px 30px;
-  border-radius:25px;
-  margin-top:15px;
-  cursor:pointer;
-  font-weight:bold;
-}
-button:hover{
-  background:#ad1457;
-}
-footer{
-  text-align:center;
-  padding:15px;
-  background:#880e4f;
-  color:white;
-  margin-top:20px;
-}
+audio,video{width:100%;margin:10px 0}
+table{width:100%;border-collapse:collapse;margin-top:10px}
+th,td{border:1px solid #f8bbd0;padding:12px;text-align:left}
+th{background:#d81b60;color:white}
+tr:nth-child(even){background:#fce4ec}
+label{display:block;font-weight:bold;margin:15px 0 5px 0;color:#880e4f}
+input,textarea{width:100%;padding:10px;border:2px solid #f8bbd0;border-radius:8px;background:#fff8fb}
+button{background:#d81b60;color:white;border:none;padding:12px 30px;border-radius:25px;margin-top:15px;cursor:pointer;font-weight:bold}
+button:hover{background:#ad1457}
+footer{text-align:center;padding:15px;background:#880e4f;color:white;margin-top:20px}
+ul{padding-left:20px}
 @media(max-width:600px){
-  .photo-grid{
-    grid-template-columns:1fr;
-  }
-  .photo-grid img{
-    height:320px;
-  }
+  .photo-grid{grid-template-columns:1fr}
+  .photo-grid img{height:300px}
 }
